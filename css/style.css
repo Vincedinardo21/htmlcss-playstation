@@ -57,6 +57,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    color: white;
 }
 
 #takes .col-12 {
