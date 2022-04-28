@@ -9,6 +9,7 @@
 header {
     width: 100%;
     position: fixed;
+    z-index: 100;
 }
 
 .black-sony {
@@ -28,7 +29,7 @@ header {
 .my-jumbotron {
     background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .my-jumbotron .col-12{
@@ -44,4 +45,29 @@ header {
 /* PS5 */
 #ps5 span {
     color: blue;
+}
+
+#ps5-img {
+    width: 100%;
+}
+
+/* It takes two */
+#takes {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+#takes .col-12 {
+    
+    min-height: 500px;
+}
+
+#takes-logo {
+    width: 20%;
+}
+
+#takes img {
+    width: 300px;
 }
