@@ -5,6 +5,10 @@
     border: 1px solid red;
 }
 
+img {
+    width: 100%;
+}
+
 /* Header */
 header {
     width: 100%;
@@ -38,7 +42,7 @@ header {
 
 /* Carousel */
 .carousel img, #nuove-uscite img {
-    width: 100%;
+    /* width: 100%; */
     border-radius: 12px;
 }
 
@@ -79,9 +83,9 @@ header {
 }
 
 /* Esplora ps4 */
-#esp-ps4 img, #nuovi-sconti img, #play-now img{
+/* #esp-ps4 img, #nuovi-sconti img, #play-now img {
     width: 100%;
-}
+} */
 
 /* Ps Plus */
 
@@ -89,6 +93,29 @@ header {
 #play-now {
     background-color: blue;
 }
+
+/* Footer */
+footer {
+    background-color: blue;
+}
+
+footer img {
+    width: 170px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+#footer-up a {
+    text-decoration: none;
+}
+
+
+
+/* #footer-up img {
+    width: 100px;
+} */
 
 
 
