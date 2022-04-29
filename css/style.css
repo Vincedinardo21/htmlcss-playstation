@@ -79,13 +79,17 @@ header {
 }
 
 /* Esplora ps4 */
-#esp-ps4 img, #nuovi-sconti img{
+#esp-ps4 img, #nuovi-sconti img, #play-now img{
     width: 100%;
 }
 
 /* Ps Plus */
 
-/* Nuovi Sconti */
+/* PlayStation Now */
+#play-now {
+    background-color: blue;
+}
+
 
 
 
