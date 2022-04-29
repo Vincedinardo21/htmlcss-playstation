@@ -5,6 +5,7 @@
     border: 1px solid red;
 }
 
+/* Tutte le img si adattano alle colonne */
 img {
     width: 100%;
 }
@@ -20,7 +21,6 @@ header {
     display: flex;
     justify-content: end;
     background-color: black;
-    /* min-height: 50px; */
 }
 
 .black-sony img {
@@ -33,7 +33,8 @@ header {
 .my-jumbotron {
     background-image: url("../img/jumbo-bg.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
 }
 
 .my-jumbotron .col-12{
@@ -88,6 +89,9 @@ header {
 } */
 
 /* Ps Plus */
+#play-plus {
+    background-color: gray;
+}
 
 /* PlayStation Now */
 #play-now {
@@ -111,11 +115,6 @@ footer ul{
     text-decoration: none;
 }
 
-
-
-/* #footer-up img {
-    width: 100px;
-} */
 
 
 
